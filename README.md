@@ -4,14 +4,14 @@ by [Yueming Jin](https://yuemingjin.github.io/), [Yonghao Long](https://scholar.
 ## Introduction
 * The Pytorch implementation for our paper '[Trans-SVNet: hybrid embedding aggregation Transformer for surgical workflow analysis](https://link.springer.com/article/10.1007/s11548-022-02743-8)', accepted at International Journal of Computer Assisted Radiology and Surgery (IJCARS).
 
-This is the extension version of our [2021 MICCAI paper](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_57).
+* This is the extension version of our [2021 MICCAI paper](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_57).
 
 <p align="center">
-  <img src="figure/overview.png"  width="800"/>
+  <img src="figs/overview.png"  width="800"/>
 </p>
 
 ## Data
-* We use the dataset [Cholec80](http://camma.u-strasbg.fr/datasets), [M2CAI 2016 Challenge](http://camma.u-strasbg.fr/m2cai2016/index.php/program-challenge/) and [CATARACTS](https://ieee-dataport.org/open-access/cataracts).
+* We use the datasets [Cholec80](http://camma.u-strasbg.fr/datasets), [M2CAI 2016 Challenge](http://camma.u-strasbg.fr/m2cai2016/index.php/program-challenge/) and [CATARACTS](https://ieee-dataport.org/open-access/cataracts).
 
 * Please refer to [TMRNet](https://github.com/YuemingJin/TMRNet) repository for data preprocessing.
 
@@ -29,13 +29,13 @@ This is the extension version of our [2021 MICCAI paper](https://link.springer.c
     git clone https://github.com/YuemingJin/Trans-SVNet_Journal
     ```
 
-2. Generate labels and prepare data path information
+3. Generate labels and prepare data path information
 
 * Run ``$ generate_phase_anticipation.py`` to generate the label of workflow anticipation
 
 * Run ``$ get_paths_labels.py`` to generate the files needed for the training
 
-3. Training
+4. Training
 
 * Run ``$ train_embedding.py`` to train ResNet50 backbone
 
@@ -44,7 +44,7 @@ This is the extension version of our [2021 MICCAI paper](https://link.springer.c
 * Run ``$ tecno.py`` to train TCN for temporal modeling
 
 * Run ``$ tecno_trans.py`` to train Transformer
-  ```
+
 
 ## Testing
 
