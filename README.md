@@ -48,7 +48,7 @@ by [Yueming Jin](https://yuemingjin.github.io/), [Yonghao Long](https://scholar.
 
 ## Testing
 
-Our trained models can be downloaded from [DropBox](https://www.dropbox.com/scl/fo/t39mc5awl7trrsv0t2mcy/h?dl=0&rlkey=gfalcbb0f2sa1ythpjwulrohy).
+Our trained models can be downloaded from [Dropbox](https://www.dropbox.com/scl/fo/t39mc5awl7trrsv0t2mcy/h?dl=0&rlkey=gfalcbb0f2sa1ythpjwulrohy).
 
 * Run ``$ trans_SV_output.py`` to generate the predictions for evaluation
 
