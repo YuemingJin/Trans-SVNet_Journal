@@ -56,7 +56,10 @@ We use the evaluation protocol of M2CAI challenge for evaluating our method.
 Please refer to [TMRNet](https://github.com/YuemingJin/TMRNet/tree/main/code/eval/result/matlab-eval) repository for evaluation script.
 
 ```
-Note: we take the training&testing procedure for Cholec80 dataset (folder: ./code_80/) as an example. For M2CAI dataset, the same code can be used. For CATA dataset, code can be found in ./code_CATA/ folder and training&testing procedure are the same.
+Note: 
+We take the training&testing procedure for Cholec80 dataset (folder: ./code_80/) as an example. 
+For M2CAI dataset, the same code can be used. 
+For CATA dataset, code can be found in ./code_CATA/ folder and training&testing procedure are the same.
 ```
 
 ## Citation
