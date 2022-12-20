@@ -4,14 +4,14 @@ by [Yueming Jin](https://yuemingjin.github.io/), [Yonghao Long](https://scholar.
 ## Introduction
 * The Pytorch implementation for our paper '[Trans-SVNet: hybrid embedding aggregation Transformer for surgical workflow analysis](https://link.springer.com/article/10.1007/s11548-022-02743-8)', accepted at International Journal of Computer Assisted Radiology and Surgery (IJCARS).
 
-* This is the extension version of our [2021 MICCAI paper](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_57).
+* This is the extension version of our [2021 MICCAI paper](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_57), and tackles both workflow recognition and workflow anticipation.
 
 <p align="center">
   <img src="figs/overview.png"  width="800"/>
 </p>
 
 ## Data
-* We use the datasets [Cholec80](http://camma.u-strasbg.fr/datasets), [M2CAI 2016 Challenge](http://camma.u-strasbg.fr/m2cai2016/index.php/program-challenge/) and [CATARACTS](https://ieee-dataport.org/open-access/cataracts).
+* We validate our method on two types of surgeries with three datasets [Cholec80](http://camma.u-strasbg.fr/datasets), [M2CAI 2016 Challenge](http://camma.u-strasbg.fr/m2cai2016/index.php/program-challenge/) and [CATARACTS](https://ieee-dataport.org/open-access/cataracts).
 
 * Please refer to [TMRNet](https://github.com/YuemingJin/TMRNet) repository for data preprocessing.
 
